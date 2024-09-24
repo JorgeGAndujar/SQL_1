@@ -1,0 +1,7 @@
+ECHO OFF
+SET PROMPT=$D$_$$
+MODE CON: COLS=120 LINES=3000
+CHCP 850
+CHCP 65001
+CLS
+"C:\Program Files\PostgreSQL\17\scripts\runpsql.bat"
